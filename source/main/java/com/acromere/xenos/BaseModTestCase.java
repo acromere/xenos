@@ -1,14 +1,14 @@
-package com.avereon.xenos;
+package com.acromere.xenos;
 
-import com.avereon.product.ProductCard;
-import com.avereon.product.Rb;
-import com.avereon.settings.MapSettings;
-import com.avereon.xenon.*;
-import com.avereon.xenon.Module;
-import com.avereon.xenon.resource.ResourceManager;
-import com.avereon.xenon.index.IndexService;
-import com.avereon.xenon.notice.NoticeManager;
-import com.avereon.xenon.task.TaskManager;
+import com.acromere.product.ProductCard;
+import com.acromere.product.Rb;
+import com.acromere.settings.MapSettings;
+import com.acromere.xenon.*;
+import com.acromere.xenon.Module;
+import com.acromere.xenon.resource.ResourceManager;
+import com.acromere.xenon.index.IndexService;
+import com.acromere.xenon.notice.NoticeManager;
+import com.acromere.xenon.task.TaskManager;
 import javafx.beans.property.SimpleStringProperty;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.extension.ExtendWith;

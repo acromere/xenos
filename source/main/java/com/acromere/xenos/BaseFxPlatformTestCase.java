@@ -1,6 +1,6 @@
-package com.avereon.xenos;
+package com.acromere.xenos;
 
-import com.avereon.zerra.javafx.Fx;
+import com.acromere.zerra.javafx.Fx;
 import org.junit.jupiter.api.BeforeEach;
 
 public abstract class BaseFxPlatformTestCase extends BaseForAllTests {

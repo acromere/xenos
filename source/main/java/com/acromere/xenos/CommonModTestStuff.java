@@ -1,8 +1,8 @@
-package com.avereon.xenos;
+package com.acromere.xenos;
 
-import com.avereon.product.ProductCard;
-import com.avereon.xenon.Module;
-import com.avereon.xenon.Xenon;
+import com.acromere.product.ProductCard;
+import com.acromere.xenon.Module;
+import com.acromere.xenon.Xenon;
 
 import static org.assertj.core.api.Assertions.assertThat;
 

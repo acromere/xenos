@@ -1,12 +1,12 @@
-package com.avereon.xenos;
+package com.acromere.xenos;
 
-import com.avereon.util.Parameters;
-import com.avereon.xenon.Xenon;
-import com.avereon.xenon.test.ProgramTestConfig;
+import com.acromere.util.Parameters;
+import com.acromere.xenon.Xenon;
+import com.acromere.xenon.test.ProgramTestConfig;
 import org.junit.jupiter.api.BeforeEach;
 
 /**
- * This class is a duplicate of com.avereon.zenna.BaseXenonUiTestCase which is
+ * This class is a duplicate of com.acromere.zenna.BaseXenonUiTestCase which is
  * intended to be visible for mod testing but is not available to Xenon to
  * avoid a circular dependency. Attempts at making this
  * class publicly available have run in to various challenges with the most

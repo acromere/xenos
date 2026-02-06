@@ -1,13 +1,13 @@
-package com.avereon.xenos;
+package com.acromere.xenos;
 
-import com.avereon.product.ProductCard;
-import com.avereon.util.FileUtil;
-import com.avereon.util.OperatingSystem;
-import com.avereon.util.ThreadUtil;
-import com.avereon.xenon.ProgramSettings;
-import com.avereon.xenon.SettingsManager;
-import com.avereon.xenon.Xenon;
-import com.avereon.xenon.XenonMode;
+import com.acromere.product.ProductCard;
+import com.acromere.util.FileUtil;
+import com.acromere.util.OperatingSystem;
+import com.acromere.util.ThreadUtil;
+import com.acromere.xenon.ProgramSettings;
+import com.acromere.xenon.SettingsManager;
+import com.acromere.xenon.Xenon;
+import com.acromere.xenon.XenonMode;
 import org.junit.jupiter.api.AfterEach;
 import org.junit.jupiter.api.BeforeEach;
 
@@ -15,7 +15,7 @@ import java.io.IOException;
 import java.nio.file.Files;
 import java.nio.file.Path;
 
-import static com.avereon.xenon.test.ProgramTestConfig.LONG_TIMEOUT;
+import static com.acromere.xenon.test.ProgramTestConfig.LONG_TIMEOUT;
 
 /**
  * The super class for {@link BasePartXenonTestCase} and {@link BaseFullXenonTestCase}

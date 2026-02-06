@@ -1,7 +1,7 @@
-package com.avereon.xenos;
+package com.acromere.xenos;
 
-import com.avereon.product.ProductCard;
-import com.avereon.xenon.Module;
+import com.acromere.product.ProductCard;
+import com.acromere.xenon.Module;
 import org.junit.jupiter.api.BeforeEach;
 
 public abstract class BaseModUiTestCase<T extends Module> extends BaseFullXenonTestCase {

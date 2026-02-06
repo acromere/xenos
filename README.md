@@ -1,3 +1,3 @@
-[build-status]: https://github.com/avereon/zerra/workflows/CI/badge.svg "Build status"
+[build-status]: https://github.com/acromere/xenos/workflows/CI/badge.svg "Build status"
 
-# Zerra [![][build-status]](https://github.com/avereon/zerra/actions)
+# Xenos [![][build-status]](https://github.com/acromere/xenos/actions)
