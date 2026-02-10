@@ -1,4 +1,4 @@
-name: Acromere Xenos CI
+name: Xenos CI
 
 on:
   push:
