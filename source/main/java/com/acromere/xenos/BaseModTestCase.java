@@ -65,7 +65,7 @@ public class BaseModTestCase<T extends Module> extends BasePartXenonTestCase {
 	protected void setup() throws Exception {
 		super.setup();
 
-		if( programCard == null ) programCard = ProductCard.info( program.getClass() );
+		if( programCard == null ) programCard = ProductCard.card( program.getClass() );
 		lenient().when( program.getCard() ).thenReturn( programCard );
 		Rb.init( program );
 		lenient().when( program.getTaskManager() ).thenReturn( taskManager );
