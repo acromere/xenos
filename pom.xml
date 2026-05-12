@@ -55,7 +55,7 @@
 
 		<!-- Runtime dependencies -->
 		<testfx.version>4.0.18</testfx.version>
-		<mockito.version>5.21.0</mockito.version>
+		<mockito.version>5.23.0</mockito.version>
 	</properties>
 
 	<dependencies>
