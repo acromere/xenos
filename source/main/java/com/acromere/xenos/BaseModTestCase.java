@@ -5,6 +5,7 @@ import com.acromere.product.Rb;
 import com.acromere.settings.MapSettings;
 import com.acromere.xenon.*;
 import com.acromere.xenon.Module;
+import com.acromere.xenon.resource.Resource;
 import com.acromere.xenon.resource.ResourceManager;
 import com.acromere.xenon.index.IndexService;
 import com.acromere.xenon.notice.NoticeManager;
@@ -83,6 +84,7 @@ public class BaseModTestCase<T extends Module> extends BasePartXenonTestCase {
 		// Settings Manager
 		lenient().when( settingsManager.getSettings( any( String.class ) ) ).thenReturn( new MapSettings() );
 		lenient().when( settingsManager.getProductSettings( any( ProductCard.class ) ) ).thenReturn( new MapSettings() );
+		lenient().when( settingsManager.getAssetSettings( any( Resource.class) ) ).thenReturn( new MapSettings() );
 
 		// Product Manager
 		//ProductManager productManager = getProgram().getProductManager();
