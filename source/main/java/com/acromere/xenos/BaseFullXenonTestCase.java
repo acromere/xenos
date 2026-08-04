@@ -73,7 +73,7 @@ public abstract class BaseFullXenonTestCase extends BaseXenonTestCase {
 		FxToolkit.setupApplication( () -> xenon );
 
 		programWatcher.waitForEvent( ProgramEvent.STARTED, LONG_TIMEOUT );
-		Fx.waitForWithExceptions( LONG_TIMEOUT );
+		Fx.waitFor( LONG_TIMEOUT );
 
 		// Get initial memory use after program is started
 		initialMemoryUse = getMemoryUse();
@@ -122,7 +122,7 @@ public abstract class BaseFullXenonTestCase extends BaseXenonTestCase {
 
 	protected void closeProgram( boolean force ) throws Exception {
 		Fx.run( () -> getProgram().requestExit( force ) );
-		Fx.waitForWithExceptions( 5, TimeUnit.SECONDS );
+		Fx.waitFor( 5, TimeUnit.SECONDS );
 	}
 
 	protected EventWatcher getProgramEventWatcher() {
