@@ -84,7 +84,7 @@ public class BaseModTestCase<T extends Module> extends BasePartXenonTestCase {
 		// Settings Manager
 		lenient().when( settingsManager.getSettings( any( String.class ) ) ).thenReturn( new MapSettings() );
 		lenient().when( settingsManager.getSettings( any( String.class ), any( String.class ) ) ).thenReturn( new MapSettings() );
-		lenient().when( settingsManager.getAssetSettings( any( Resource.class) ) ).thenReturn( new MapSettings() );
+		lenient().when( settingsManager.getResourceSettings( any( Resource.class) ) ).thenReturn( new MapSettings() );
 		lenient().when( settingsManager.getProductSettings( any( ProductCard.class ) ) ).thenReturn( new MapSettings() );
 
 		// Product Manager
